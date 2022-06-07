@@ -110,14 +110,28 @@ To set it as default to expand cells, you can search for "collapse cell" in sett
 
 Here I am binding the key, **F1**, to open the kite doc for functions at the cursor. This is quite convenient since I am more used to the function documention and help in R. Of course, you can search inside the modules or [python documentations](https://docs.python.org/3/).
 
-### 6. Other useful tricks
+### 6. Inlne title bar
 
-(1) Useful shortcuts (show and hide the terminal via **shift + tab**)
+You need to rely on the extension of "Customize UI" to set the title bar of VS code to be inline. Searching "customize" and set **customize UI: Title Bar** as inline. You need to restart to see the effect.
 
-(2) Suggestion: better not to append comment (#) after the script line, since it may cause problem for look for help function
+### 7. Set notebook output font size
+
+To save the space for the notebook output, I set "**Notebook:Output font size**" at 15.
+
+### 8. Python autoformating
+
+You can make use of auto formating to clean you code. Here I am using "autopep8", and you can also choose "black" in  "**Python:Formating:Provider**"
+
+### 8. Other useful tricks
+
+(1) hover around the dataset or function, you will be able to have a preview of the data and function doc.
+
+(2) Useful shortcuts (show and hide the terminal via **shift + tab**)
+
+(3) Suggestion: better not to append comment (#) after the script line, since it may cause problem for look for help function
 
 e.g., print? # search for help would cause error.
 
-(3) Install "Doc View" extension so that you can see the function documentation, which is somehow similar to the kite copilot function. You can find it insider the sidebar of vs code or go to terminal (**shift + tab**) in vs code-click the symbol for documentation.
+(4) Install "Doc View" extension so that you can see the function documentation, which is somehow similar to the kite copilot function. You can find it insider the sidebar of vs code or go to terminal (**shift + tab**) in vs code-click the symbol for documentation.
 
 Check this link for an overview: https://www.youtube.com/watch?v=I525eE-hsNc
