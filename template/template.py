@@ -26,11 +26,16 @@
 
 
 # %% name = "setup", echo = False, include=False
+import os
+import sys
+sys.path.append(os.getcwd())
 from inspect import getsource as trace
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
 # %%
 
 
-# Introduction
+# ~~ # Introduction
 
 
 # ~~ Here I am using a special character (# ~~ ) as indicator for yaml header and markdown inline code format. You also write inline comments directly, though it may cause some warnings for the spelling of code. To compile this script into pdf, I have written a funtion that can automatically delete the specaial indicator, and render the file into pdf via `pweave` function.
@@ -48,7 +53,7 @@ print(trace(add_two))
 # %%
 
 
-# Data and Methods
+# ~~ # Data and Methods
 
 
 # %% name = "for loop"
@@ -56,10 +61,10 @@ for i in range(10):
     print(i)
 # %%
 
-# Results
+# ~~ # Results
 
-# Discussions
+# ~~ # Discussions
 
-# References
+# ~~ # References
 
 

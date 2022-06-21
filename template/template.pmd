@@ -1,7 +1,7 @@
 ---
 title: "Python Template"
 author: "Yingqi Jing"
-date: 08.06.2022
+date: 18.06.2022
 header-includes:
     - \usepackage{textcomp}
     - \renewcommand{\thefigure}{S\arabic{figure}}
@@ -26,6 +26,9 @@ output:
 
 
 ```python,name = "setup", echo = False, include=False
+import os
+import sys
+sys.path.append(os.getcwd())
 from inspect import getsource as trace
 ```
 
