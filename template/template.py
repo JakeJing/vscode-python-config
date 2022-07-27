@@ -29,6 +29,7 @@
 import os
 import sys
 sys.path.append(os.getcwd())
+# Note: user-defined module should come after the line of setting current wd
 from inspect import getsource as trace
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
