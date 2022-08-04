@@ -41,6 +41,7 @@ InteractiveShell.ast_node_interactivity = "all"
 
 # ~~ Here I am using a special character (# ~~ ) as indicator for yaml header and markdown inline code format. You also write inline comments directly, though it may cause some warnings for the spelling of code. To compile this script into pdf, I have written a funtion that can automatically delete the specaial indicator, and render the file into pdf via `pweave` function.
 
+# ~~ You can also cross-refer a section \ref{sec:method} in this way.
 
 # %% name = "check source code via inspect getsource function"
 def add_two(A, B):
@@ -54,7 +55,7 @@ print(trace(add_two))
 # %%
 
 
-# ~~ # Data and Methods
+# ~~ # Data and Methods {#sec:method}
 
 
 # %% name = "for loop"
